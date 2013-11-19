@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tabel angajati</title>
+		<style>
+		.tabel{
+		    background-color: green;
+				font-weight: italic;
+				font-size: 1.4em;
+				text-align: center;
+				border-spacing : 0;
+ 		}
+		
+		.tabel thead{
+		   background-color : red;
+		   border : 3 px solid;
+		   
+		}
+		
+		.tabel td {
+		border : 1.5px solid;
+		padding : 0;
+		margin : 0;
+		
+		}
+		
+		
+</style>
+</head>
+
+<body>
+
+<table class = "tabel">
+<caption style="background-color: blue;">Lista angajati</caption>
+  <thead>
+    <tr>
+	  <th>Nume</th>
+	  <th>Prenume</th>
+	  <th>Varsta</th>
+	  <th>Departament</th>
+	  <th>Data angajatii</th>
+	  <th>Pozitia</th>
+	 </thead>
+	  
+	<tbody>
+       <tr>
+	      <td>Mihalache</td>
+		  <td>Florin</td>
+		  <td>27</td>
+		  <td>IT</td>
+		  <td>18.11.2013</td>
+		  <td>Manager</td>
+		 </tr>
+		 
+		 <tr>
+		    <td>Mihalache</td>
+		  <td>Andrei</td>
+		  <td>21</td>
+		  <td>HR</td>
+		  <td>18.10.2011</td>
+		  <td>Intern</td>
+		 </tr>
+		 
+		 <tr>
+		 <td>Manolache</td>
+		  <td>Irina</td>
+		  <td>25</td>
+		  <td>IT</td>
+		  <td>12.01.2013</td>
+		  <td>Intern</td>
+         </tr>
+		 
+		 <tr>
+		 
+<td>Popescu</td>
+		  <td>Catalin</td>
+		  <td>23</td>
+		  <td>IT</td>
+		  <td>18.11.2009</td>
+		  <td>Manager</td>
+		  </tr>
+		  
+		  <tr>
+		  <td>Ionescu</td>
+		  <td>Andrei</td>
+		  <td>33</td>
+		  <td>IT</td>
+		  <td>12.11.2013</td>
+		  <td>Manager</td>
+		  </tr>
+</table>
+
+
+</body>
+
+</html>
