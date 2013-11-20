@@ -3,14 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Tabel angajati</title>
+	<title>Tabel angajati</title>
 
-		<link rel ="stylesheet" href = "style.css"/>
-	
-		
-	
-		
-		
+	<link rel ="stylesheet" href = "style.css"/>
 </head>
 
 <body>
@@ -37,7 +32,7 @@
 		 </tr>
 		 
 		 <tr>
-		    <td>Mihalache</td>
+		  <td>Mihalache</td>
 		  <td>Andrei</td>
 		  <td>21</td>
 		  <td>HR</td>
@@ -46,7 +41,7 @@
 		 </tr>
 		 
 		 <tr>
-		 <td>Manolache</td>
+		  <td>Manolache</td>
 		  <td>Irina</td>
 		  <td>25</td>
 		  <td>IT</td>
@@ -82,13 +77,13 @@
         <input name="prenume" id="prenume">
         
         <label for="Varsta">Varsta:</label>
-        <input name="varsta" id="varsta">
+        <input name="Varsta" id="varsta">
 		
 		 <label for="Departament">Departament:</label>
         <input name="Departament" id="Departament">
         
         <label for="Data angajatii	">Data angajatii	:</label>
-        <input name="Data angajatii	" id="Data-angajarii">
+        <input name="Data-angajarii" id="Data-angajarii">
 
 		<label for="Pozitia">Pozitia:</label>
         <input name="Pozitia" id="Pozitia">
@@ -102,29 +97,21 @@
 <script>
 
 $(function(){
-$('td').click(function() {
-     $(this).hide();
-	 
-});
+	$('td').click(function() {
+		$(this).hide();
+	});
 
-$('#formular').submit(function(e){
-   e.preventDefault();
-   
-   var nume = $("#nume").val();
-   alert(nume);
-    var prenume = $("#prenume").val();
-   alert(prenume);
-   
+	$('#formular').submit(function(e){
+	    e.preventDefault();
+	   
+		var nume = $("#nume").val();
+		alert(nume);
+		var prenume = $("#prenume").val();
+		alert(prenume);
    });  
 });
 
-
-
-
-
 </script>
       
-
 </body>
-
 </html>
