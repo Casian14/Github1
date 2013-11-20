@@ -1,60 +1,16 @@
-Un utilizator poate adauga un student si daca cineva da click pe o celula din tabel atunci celula sa dispara.
+﻿<!--Un utilizator poate adauga un student si daca cineva da click pe o celula din tabel atunci celula sa dispara.-->
 
 <!DOCTYPE html>
 <html>
 <head>
 <title>Tabel angajati</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>
 
-$(function(){
-$('td').click(function() {
-     $(this).hide();
-	 
-});
-
-$('#formular').submit(function(e){
-   e.preventDefault();
-   
-   var nume = $("#nume").val();
-   alert(nume);
-    var prenume = $("#prenume").val();
-   alert(prenume);
-   
-   });  
-});
-
-
-
-
-
-</script>
-		<style>
-		.tabel{
-		    background-color: green;
-				font-weight: italic;
-				font-size: 1.4em;
-				text-align: center;
-				border-spacing : 0;
- 		}
-		
-		.tabel thead{
-		   background-color : red;
-		   border : 3 px solid;
-		   
-		}
-		
-		.tabel td {
-		border : 1.5px solid;
-		padding : 0;
-		margin : 0;
-		
-		}
+		<link rel ="stylesheet" href = "style.css"/>
+	
 		
 	
 		
 		
-</style>
 </head>
 
 <body>
@@ -142,7 +98,31 @@ $('#formular').submit(function(e){
     </form>
 	
 	
-	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+
+$(function(){
+$('td').click(function() {
+     $(this).hide();
+	 
+});
+
+$('#formular').submit(function(e){
+   e.preventDefault();
+   
+   var nume = $("#nume").val();
+   alert(nume);
+    var prenume = $("#prenume").val();
+   alert(prenume);
+   
+   });  
+});
+
+
+
+
+
+</script>
       
 
 </body>

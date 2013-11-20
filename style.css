@@ -1,0 +1,21 @@
+        
+.tabel{
+	background-color: green;
+	font-weight: italic;
+	font-size: 1.4em;
+	text-align: center;
+	border-spacing : 0;
+}
+
+.tabel thead{
+   background-color : red;
+   border : 3 px solid;
+   
+}
+
+.tabel td {
+	border : 1.5px solid;
+	padding : 0;
+	margin : 0;
+
+}
